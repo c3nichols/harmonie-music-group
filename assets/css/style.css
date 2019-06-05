@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Acme:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|&display=swap');
+
+
+/*---------------------------------------header*/
+
+.title {
+    font-family: "Acme", sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    margin-top: 5px;
+    color: #3c5396;
+    text-align: center;
+}
+
+
+/*---------------------------------------footer*/
+footer {
+    text-align: center;
+    background-color: #3c5396;
+    min-height: 120px;
+    margin: 0;
+    padding: 1rem;
+    font-family: "acme", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.fa-facebook-square {
+    color: #ffffff;
+    padding: .5rem;
+    
+}
+
+.fa-twitter-square {
+    color: #ffffff;
+    padding: .5rem;
+}
+
+i:hover {
+    background-color: yellow;
+}
+
