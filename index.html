@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Acme|Roboto&display=swap" rel="stylesheet">
     <script src=" https://kit.fontawesome.com/52af8ccdec.js "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
@@ -14,15 +14,47 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="title "> Harmonie Music Group </h1>
+    <!---------code from bootstrap (navbar color changed & search form deleted)--->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-*">
+        <a class="navbar-brand" href="/index.html"><img src="/assets/images/logo-blue.jpg" width="200" height="200" class="img-fluid" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Home <span class="sr-only ">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/concerts_and_events.html">Concerts and Events <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/join_us.html">Join us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/gallery.html">Gallery <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contact_us.html">Contact us <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!---------code from bootstrap---->
+
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img src="/assets/images/whole-band-modified.jpg" alt="Band in Concert" class="img-fluid"></img>
+            </div>
+        </div>
     </header>
 
     <section>
-
     </section>
 
-    <footer class="container-fluid ">
+    <footer class="container-fluid">
         <div class="row ">
             <div class="col-12 ">
                 <h4> Follow us on social media </h4>
@@ -31,7 +63,6 @@
                 <p>© Harmonie Music Group 2019</p>
             </div>
         </div>
-
     </footer>
 
 </body>
