@@ -1,25 +1,67 @@
-@import url('https://fonts.googleapis.com/css?family=Acme:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Acme:100,200,300,400,500,600,700|&display=swap');
 
-.container-fluid {
-    width: 100%;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 /*---------------------------------------navbar*/
 
 .navbar { 
     background-color: #3c5396; 
+    font-family: "acme", sans-serif;
+    font-size: 1em;
     }
 
 /*---------------------------------------header*/
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.title-container {
+  position: relative;
 }
+
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.title-text {
+    font-family: "acme", sans-serif;
+    font-size: 3em;
+    color: #967f3c;
+}
+
+/*------------------------------------index-page-main-content*/
+
+.main-sub-heading {
+    font-family: "acme", sans-serif; 
+    color: #3c5396;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content-image {
+    border-radius: 50px;
+    }
+    
+    .content-info {
+    font-family: "roboto", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    }
 
 /*---------------------------------------footer*/
 footer {
