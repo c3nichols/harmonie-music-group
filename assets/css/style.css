@@ -72,6 +72,8 @@
     background-image: url("/assets/images/audience-at-concert - web.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0px;
+    padding: 50px;
 }
 
 .ticket-icon {
@@ -84,6 +86,29 @@
     padding: 20px;
     padding-top: 40px;
     border-radius: 50px;
+}
+
+/*---------------------------------------card-deck*/
+.card-deck {
+   margin: 0px;
+   padding: 100px;
+}
+
+.card-body {
+    background-color: #ffffff;
+    }
+
+.card {
+    border-color: #967f3c;
+    border-width: 5px;
+}
+
+.btn {
+    background-color: #967f3c;
+    color: #ffffff;
+    font-family: "acme", sans-serif;
+    font-size: 1.5em;
+    border-color: #ffffff;
 }
 
 
