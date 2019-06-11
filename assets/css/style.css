@@ -4,25 +4,25 @@
 
 /*---------------------------------------navbar*/
 
-.navbar { 
-    background-color: #3c5396; 
+.navbar {
+    background-color: #3c5396;
     font-family: "acme", sans-serif;
-    font-size: 1em;
-    }
+    font-size: 1.5em;
+}
 
 /*---------------------------------------header*/
 
 .title-container {
-  position: relative;
+    position: relative;
 }
 
 .text-block {
-  position: absolute;
-  bottom: 40px;
-  left: 20px;
-  background-color: rgba(255, 255, 255, 0.75);
-  padding: 20px;
-  border-radius: 30px;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .title-text {
@@ -34,7 +34,7 @@
 /*------------------------------------index-page-main-content*/
 
 .main-sub-heading {
-    font-family: "acme", sans-serif; 
+    font-family: "acme", sans-serif;
     color: #3c5396;
     text-align: center;
     padding-bottom: 10px;
@@ -52,18 +52,43 @@
 
 .content-image {
     border-radius: 50px;
-    }
-    
-    .content-info {
+}
+
+.content-info {
     font-family: "roboto", sans-serif;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: justify;
-    }
+}
+
+/*---------------------------------------jumbrotron*/
+
+.jumbotron {
+    text-align: center;
+    color: #967f3c;
+    font-family: "acme", sans-serif;
+    background-image: url("/assets/images/audience-at-concert - web.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ticket-icon {
+    font-size: 2em;
+}
+
+.text-block-concerts {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 50px;
+}
+
 
 /*---------------------------------------footer*/
+
 footer {
     text-align: center;
     background-color: #3c5396;
@@ -71,6 +96,8 @@ footer {
     font-family: "acme", sans-serif;
     font-weight: 300;
     color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .fa-facebook-square {
