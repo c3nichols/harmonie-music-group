@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Acme:100,200,300,400,500,600,700|&display=swap');
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "acme", sans-serif;
+}
 
-/*---------------------------------------navbar*/
+p {
+    font-family: "roboto", sans-serif;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #B89D4D;
+}
+
+/*---------------------------------------navbar, line decoration*/
 
 .navbar {
     background-color: #B89D4D;
@@ -9,6 +32,7 @@
     font-size: 1.5em;
     padding: 0px;
     padding-left: 10px;
+    text-shadow: 2px 0px 6px black;
 }
 
 .color-row-white {
@@ -21,6 +45,21 @@
     background-color: #B89D4D;
     margin: 0px;
     line-height: .5;
+}
+
+/*------------------------------------text for page title*/
+
+.title-container {
+    position: relative;
+}
+
+.text-block {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #B89D4D;
+    padding: 20px 40px 20px 40px;
 }
 
 /*------------------------------------index-page-main-content*/
@@ -49,13 +88,13 @@
     text-align: justify;
 }
 
-/*---------------------------------------jumbrotron*/
+/*---------------------------------------Concerts & Events link jumbrotron*/
 
 .jumbotron {
     text-align: center;
     color: #B89D4D;
-    font-family: "acme", sans-serif;
-    background-image: url("/assets/images/audience-at-concert - web.png");
+ 
+    background-image: url("/assets/images/audience-at-concert - web.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
@@ -74,29 +113,41 @@
     border-radius: 50px;
 }
 
-/*---------------------------------------card-deck*/
+/*--cards in footer and on concert & events page*/
 
-.card-deck {
-   margin: 0px;
-   padding: 100px;
-  background-color: #fafafa;
-}
-
-.card-body {
-    background-color: #ffffff;
-    }
-
-.card {
-    border-color: #B89D4D;
-    border-width: 5px;
+.page-link-cards {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(60, 83, 150, 0.10);
 }
 
 .btn {
     background-color: #B89D4D;
     color: #ffffff;
     font-family: "acme", sans-serif;
-    font-size: 1.5em;
-    border-color: #ffffff;
+    font-size: 1em;
+    border-radius: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+    padding: 10px;
+    border-color: #B89D4D;
+    border-width: 5px;
+}
+
+.title {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.sub-text {
+    color: grey;
+    font-size: 14px;
 }
 
 /*---------------------------------------footer*/
