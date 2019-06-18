@@ -24,6 +24,7 @@ a {
     color: #B89D4D;
 }
 
+
 /*---------------------------------------navbar, line decoration*/
 
 .navbar {
@@ -62,30 +63,10 @@ a {
     padding: 20px 40px 20px 40px;
 }
 
-/*------------------------------------index-page-main-content*/
-
-.main-sub-heading {
-    font-family: "acme", sans-serif;
-    color: #B89D4D;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.content-header {
-    margin: 40px 20px 40px 20px;
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.content-image {
-    border-radius: 50px;
-}
-
-.content-info {
-    font-family: "roboto", sans-serif;
-    margin: 40px 20px 40px 20px;
-    text-align: justify;
+@media (min-width: 576px) {
+    .text-block {
+        position: absolute;
+    }
 }
 
 /*---------------------------------------Concerts & Events link jumbrotron*/
@@ -93,7 +74,6 @@ a {
 .jumbotron {
     text-align: center;
     color: #B89D4D;
- 
     background-image: url("/assets/images/audience-at-concert - web.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,4 +151,72 @@ footer {
 .fa-twitter-square {
     color: #ffffff;
     padding: .5rem;
+}
+
+/*------------------------------------index-page-main-content*/
+
+.main-sub-heading {
+    font-family: "acme", sans-serif;
+    color: #B89D4D;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content-header {
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content-image {
+    border-radius: 50px;
+}
+
+.content-info {
+    font-family: "roboto", sans-serif;
+    margin: 40px 20px 40px 20px;
+    text-align: justify;
+}
+
+/* --Contact us page form (example used from w3 school to set starter template adaptations made to styling */
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #B89D4D;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+}
+
+.form-container {
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 576px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
