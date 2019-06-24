@@ -13,16 +13,7 @@ p {
     font-family: "roboto", sans-serif;
 }
 
-button:hover,
-a:hover {
-    opacity: 0.7;
-}
 
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: #B89D4D;
-}
 
 
 /*---------------------------------------navbar, line decoration*/
@@ -58,7 +49,7 @@ a {
     position: relative;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.1);
     color: #B89D4D;
     padding: 20px 40px 20px 40px;
 }
@@ -74,11 +65,12 @@ a {
 .jumbotron {
     text-align: center;
     color: #B89D4D;
-    background-image: url("/assets/images/audience-at-concert - web.jpg");
+    background-image: url("/assets/images/audience.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px;
+    margin: 50px 0px 0px 0px;
     padding: 50px;
+
 }
 
 .ticket-icon {
@@ -88,9 +80,9 @@ a {
 .text-block-concerts {
     position: relative;
     background-color: rgba(255, 255, 255, 0.75);
-    padding: 20px;
-    padding-top: 40px;
+    padding: 20px 20px 20px 20px;
     border-radius: 50px;
+   min-width: 234px;
 }
 
 /*--cards in footer and on concert & events page*/
@@ -112,6 +104,18 @@ a {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 100%;
+    min-width: 204px;
+    margin: 40px 20px 40px 20px;
+    text-align: center;
+    padding: 10px;
+    border-color: #B89D4D;
+    border-width: 5px;
+}
+
+.concert-card {
+    
+    max-width: 100%;
+    min-width: 204px;
     margin: 40px 20px 40px 20px;
     text-align: center;
     padding: 10px;
@@ -128,6 +132,14 @@ a {
 .sub-text {
     color: grey;
     font-size: 14px;
+}
+
+.card:hover {
+  border: 3px solid #B89D4D;
+}
+
+.card-body {
+    padding: 0px 0px 5px 0px;
 }
 
 /*---------------------------------------footer*/
@@ -170,16 +182,16 @@ footer {
 }
 
 .content-image {
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .content-info {
     font-family: "roboto", sans-serif;
-    margin: 40px 20px 40px 20px;
+    margin: 20px 20px 40px 20px;
     text-align: justify;
 }
 
-/* --Contact us page form (example used from w3 school to set starter template adaptations made to styling */
+/* --Contact us page form (example used from w3 school to set starter template adaptations made to styling) */
 
 input,
 textarea {
@@ -193,6 +205,12 @@ textarea {
 label {
     padding: 12px 12px 12px 12px;
     display: inline-block;
+    font-family: "acme", sans-serif;
+    font-size: 1.25rem;
+}
+
+form {
+    padding: 5px;
 }
 
 .form-container {
@@ -212,6 +230,12 @@ label {
     margin-top: 6px;
 }
 
+.col-75-button {
+    width: 25%;
+    margin-top: 6px;
+    min-width: 90px;
+}
+
 @media screen and (max-width: 576px) {
     .col-25,
     .col-75,
@@ -219,4 +243,51 @@ label {
         width: 100%;
         margin-top: 0;
     }
+}
+
+/* ------------------------Gallery page */
+.gallery-container {
+    margin: 20px 20px 100px 20px;
+}
+
+.gallery {
+ margin: 20px auto 20px auto;
+  border: 2px solid #B89D4D;
+  float: left;
+  width: 450px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+button:hover,
+btn:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color: #9f9063;
+    transition: ease-in-out;
+}
+
+
+a {
+    text-decoration: none;
+
+    color: #B89D4D;
+}
+
+a:hover {
+    color: #9f9063;
+    text-decoration: none;
+    transform: scale(0.9);
+}
+
+ol {
+    text-align: left;
 }

@@ -19,7 +19,7 @@
         <p class="color-row-white">&nbsp</p>
     </Div>
 
-    <!---------navbar code from bootstrap used (background color and font changed & search form deleted)--->
+    <!---------navbar code from bootstrap used, logo linked to index page, background color and font styling changed--->
     <nav class="navbar navbar-expand-lg navbar-dark bg-*">
         <a class="navbar-brand" href="/index.html"><img src="/assets/images/logo-gold.jpg" width="200" height="200" class="img-fluid" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,16 +31,16 @@
                     <a class="nav-link " href="/index.html">Home <span class="sr-only ">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/concerts_and_events.html">Concerts and Events <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/concertsevents.html">Concerts and Events <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/join_us.html">Join us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/join.html">Join us <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="/gallery.html">Gallery <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/contact_us.html">Contact us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/contact.html">Contact us <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
@@ -71,7 +71,11 @@
 
     <!---------main article content--->
     <main>
+        
+        
         <div class="form-container">
+            <h2>Whether you would like to come and see us, hire us or join us we'd love to hear from you:</h2>
+            <br>
             <form action=" ">
                 <div class="row">
                     <div class="col-25">
@@ -118,8 +122,8 @@
                     <div class="col-25">
                         <p>&nbsp</p>
                     </div>
-                    <div class="col-75">
-                        <input class="btn" value="Submit">
+                    <div class="col-75-button">
+                        <a><input class="btn " value="Submit"></a>
                     </div>
                 </div>
             </form>
@@ -142,27 +146,24 @@
         </div>
     </section>
 
-    <!---------basic card code copied from bootstrap, styling adapted, fontawesome icons added--->
+<!---------basic card code copied from bootstrap, fontawesome icons and images added, will stack on smaller screen size css styling of color, text, transform, background colour to section for UX --->
 
     <section class="container-fluid">
         <div class="row justify-content-center page-link-cards">
             <div class="col-12 col-sm-6 col-md-5 col-lg-3 ">
                 <div class="card">
-                    <img src="/assets/images/join-us.jpg" class="card-img-top" alt="Join us">
-                    <div class="card-body">
-                        <a href="/join_us.html" class="btn btn-block"><i class="fas fa-sign-in-alt"></i><h4>&nbsp Join us</h4></a>
-                    </div>
+                    <a href="/join.html"><img src="/assets/images/join-us.jpg" class="card-img-top card-body" alt="Join us">
+                    <i class="fas fa-sign-in-alt"></i><h4>Join us</h4></a>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-5 col-lg-3 ">
                 <div class="card">
-                    <img src="/assets/images/gallery.jpg" class="card-img-top" alt="Gallery">
-                    <div class="card-body">
-                        <a href="/gallery.html" class="btn btn-block"><i class="fas fa-camera"></i><h4>&nbsp Gallery</h4></a>
-                    </div>
+                    <a href="/gallery.html"><img src="/assets/images/gallery.jpg" class="card-img-top card-body" alt="Gallery">
+                    <i class="fas fa-camera"></i><h4>Gallery</h4></a>
                 </div>
             </div>
-        </div>
+            
+                </div>
     </section>
 
     <!---------footer--->
@@ -182,7 +183,9 @@
             </div>
         </div>
     </footer>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
