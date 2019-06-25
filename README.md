@@ -16,11 +16,11 @@ The main objective of this project is to ensure people looking for Harmonie Musi
 The age range in the band and choir is quite vast from 8-year olds to 70+ year olds. The age range on average of those attending concerts and who often organise concerts on behalf of charities is 50 years+ and so consideration in the design will be to keep simple and straight forward to navigate.
 
 ### User Stories
-- I am 40 years old and recently moved to the area, I want to find a band to join. I used to play to a high standard but have not played for 15 years. I want to know what type of people are in the band and whether it is serious or more social. I need to have an idea of what kind of music they play, what instruments are in the band and if anyone is welcome or whether they are only looking for specific vacancies and have auditions to enter. **Is this band suitable? How do I join?**
-- I am 70 years old; my daughter plays in the band and although she will tell me when concerts are on I would quite like to look for myself so I can plan ahead and make sure we are free on the dates, so we don’t miss any. Having seen the band and choir in concerts I am also quite interested in finding out more about them and the people involved. **When are the concerts and events?**
-- I am organising a local fete and the band we usually hire is unavailable this year, my friend said they had heard of Harmonie so I will look on the internet to find out more about them. If they look suitable and are available for hire, then I would want to speak to the person in charge to ask more specific questions. **Is the group available to hire? Who do I contact?**
-- My son’s music teacher has recommended that he joins a band, Harmonie has been recommended but I would like to find out more about who they are, confirm when rehearsals would be and if he would be expected to play in concerts when and where they are likely to take place. **What kind of people are in the band? When are the rehearsals and concerts? How do I make contact?**
-- My mental health advisor has suggested I should join a local choir as I love singing but I am not very confident. I am looking for a fun, relaxed, sociable choir to join. That maybe doesn’t have too many commitments so if I was unwell it would be OK if I couldn’t attend sometimes. I am a bit nervous about joining to want to find out more information before I make contact. **Is the choir right for me? What is the commitment? How can I find out more before I make any contact?**
+1. I am 40 years old and recently moved to the area, I want to find a band to join. I used to play to a high standard but have not played for 15 years. I want to know what type of people are in the band and whether it is serious or more social. I need to have an idea of what kind of music they play, what instruments are in the band and if anyone is welcome or whether they are only looking for specific vacancies and have auditions to enter. **Is this band suitable? How do I join?**
+2. I am 70 years old; my daughter plays in the band and although she will tell me when concerts are on I would quite like to look for myself so I can plan ahead and make sure we are free on the dates, so we don’t miss any. Having seen the band and choir in concerts I am also quite interested in finding out more about them and the people involved. **When are the concerts and events?**
+3. I am organising a local fete and the band we usually hire is unavailable this year, my friend said they had heard of Harmonie so I will look on the internet to find out more about them. If they look suitable and are available for hire, then I would want to speak to the person in charge to ask more specific questions. **Is the group available to hire? Who do I contact?**
+4. My son’s music teacher has recommended that he joins a band, Harmonie has been recommended but I would like to find out more about who they are, confirm when rehearsals would be and if he would be expected to play in concerts when and where they are likely to take place. **What kind of people are in the band? When are the rehearsals and concerts? How do I make contact?**
+5. My mental health advisor has suggested I should join a local choir as I love singing but I am not very confident. I am looking for a fun, relaxed, sociable choir to join. That maybe doesn’t have too many commitments so if I was unwell it would be OK if I couldn’t attend sometimes. I am a bit nervous about joining to want to find out more information before I make contact. **Is the choir right for me? What is the commitment? How can I find out more before I make any contact?**
 
 **upload mock-up document**
 I created a mock-up using balsamiq, file can be found … …. (include link)
@@ -80,24 +80,36 @@ Github pages – used to deploy website, images and page links were not working 
 **User story testing**
 1. A user who wants to join the band or choir will be given basic information on the landing page and then a *Join us* link either in the navigation menu or if they have scrolled down the page in a fairly large image link at bottom of any page. They can also see pictures throughout the site or in the gallery of the band in action and the people involved to get a flavour of the group.
 2. I actually sent the site link to a 70+ year old couple who attend Harmonie concerts and have adapted to the use of websites to find information but don’t use social media. A summary of their feedback was:
-..* thought the site was cheerful and inviting to look at
-..* well laid out and not confusing, easy to navigate and find way back
-..* liked the use of lots of pictures of the actual people
-..* observed that it was easy to find the Facebook link even though they wouldn’t use it!
-..* clear instructions on how to contact the group
-..* everything they thought they would needd was easy to find
+- thought the site was cheerful and inviting to look at
+- well laid out and not confusing, easy to navigate and find way back
+- liked the use of lots of pictures of the actual people
+- observed that it was easy to find the Facebook link even though they wouldn’t use it!
+- clear instructions on how to contact the group
+- everything they thought they would needd was easy to find
 3. The organiser of an event looking to hire the band will have basic information about the group and the director including what she looks like as soon as they arrive on the site. There is a clear *contact us* in the navigation menu and at the bottom as an image link on all pages. They can also see what dates the band are currently busy on the *concerts and events* page and also what type of events they have done in the past.
 4. A parent who wants to find out about their child joining, will see from the photos that other children are also in the band, they will see what the Musical Director looks like and how to make *contact* on the front page. If they would like to attend a concert the dates, venues and times are available. By selecting the *join us* menu item in the navigation or the image link lower down the pages they are given a paragraph of text with key information with the **day and time of rehearsals** in bold so can pick up instantly. Key for parents as if other commitments on that day the decision to join or not can be instant.
 5. A person wishing to join the choir but with potential anxiety will see the *key information* quickly by navigating the 5-page site and through seeing the photographs and clicking on the *social media links* in the footer be able to get an idea quickly of the type of people involved and that it is fun and relaxed. They will also see on the front page a picture of the person who they would be contacting and who leads the choir.
 
 **Personal testing**
-Using Microsoft Edge, Google Chrome and Safari I have looked through each page and clicked on each link to check connections, hovers and transitions. I also posted on Slack peer-review to get feedback.
+
+Using Microsoft Edge, Google Chrome and Safari I have looked through each page and clicked on each link to check connections, hovers and transitions. I also filled in the contact us form with varying details to check for errors and feedback messages when inputs not correct. I also posted on Slack peer-review to get feedback.
 
 Through this process I discovered and fixed:
 - links in the text on the join us page to contact page were still absolute and not relative pathways as were the jumbotron links to the Concerts and Events page. 
 - peer-review feedback that hover items were too jumpy and abrupt so added softer transition for hover off and hover on.
 
 ## Deployment
+The page was deployed from the GitHub repository to GitHub pages with the following steps:
+- within the repository went to **settings**
+- scrolled down to GitHub pages
+- selected source (Master Branch)
+- saved
+- sonfirmed repository name
+- scrolled back down to GitHub pages section
+- selected link provided next to “Your site is ready to be published at”
+- cut and paste in to new browser tab
+
+The only difference in appearance to the developer mode was the omission of all images and 404 errors for internal page links. I was in communication with my mentor who pointed out it was likely to be that the links were absolute and not relative so I researched the solution and corrected the issues. There were no other differences.
 
 ## Credits
 
