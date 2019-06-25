@@ -29,7 +29,7 @@ I created a mock-up using balsamiq, file can be found … …. (include link)
 ## Features
 The site uses real photos throughout to add colour and visually show the people involved. 
 
-The Acme font was chosen using google fonts; seen as clear, slightly quirky and showbiz with the angled edges and the Roboto font complimented it.  It was important to have clear readable text and spacing.
+The *Acme* font was chosen using google fonts; seen as clear, slightly quirky and showbiz with the angled edges and the *Roboto* font complimented it.  It was important to have clear readable text and spacing.
 
 The colour often used by the band is a royal blue, although most performances the band wear black and white. Use of the royal blue on the website did not portray the message needed so with some consultation and use of the Canva.com colour wheel, the gold colour was chosen as it can compliment the blue colour where needed and adds an aspect of amateur showbiz sparkle to the site!
 
@@ -52,13 +52,50 @@ The colour often used by the band is a royal blue, although most performances th
 ## Technologies Used
 1.	HTML
 2.	CSS
-3.	[Bootstrap v4.3.1] (https://getbootstrap.com/) used for responsive grid system and used templates for navigation bar with toggle, jumbotron and cards for good UX.
-4.	[Google Fonts] (https://fonts.google.com/) used to search and select best main and complementary fonts to use for site design and UX.
-5.	[Font Awesome] (https://fontawesome.com/) used for icons to enhance and decorate.
-6.	[W3Schools] (https://www.w3schools.com/) used to research and view ideas for code to use particularly for forms and photo gallery.
-7.	[Canva colour wheel] (https://www.canva.com/colors/color-wheel/) used chose a colour base for site design.
+3.	Cloud9 IDE used as a workspace to develop project.
+4.	GitHub (https://github.com/) to save repository and deploy site.
+3.	Bootstrap (https://getbootstrap.com/) used for responsive grid system and used templates for navigation bar with toggle, jumbotron and cards for good UX.
+4.	Google Fonts (https://fonts.google.com/) used to search and select best main and complementary fonts to use for site design and UX.
+5.	Font Awesome (https://fontawesome.com/) used for icons to enhance and decorate.
+6.	W3Schools (https://www.w3schools.com/) used to research and view ideas for code to use particularly for forms and photo gallery.
+7.	Canva colour wheel (https://www.canva.com/colors/color-wheel/) used chose a colour base for site design.
+8.	Autoprefixer (https://autoprefixer.github.io/) - used for testing CSS.
+9.	W3 Markup Validation Service (https://validator.w3.org/) used for testing HTML.
 
 ## Testing
+**Websites used to help validate and test code**
+
+Autoprefixer CSS online (https://autoprefixer.github.io/) used to check CSS. 
+- Highlighted that webkit, moz, o needed adding to the transitions in my CSS project file.
+
+W3C Markup Validation Service (https://validator.w3.org) used to check HTML
+- Picked up that h1 had been used in middle of the page Jumbotron and was not top level. I changed it to h3 although it had a Bootstrap Class of Display-4 so didn’t actually need a heading.
+- Picked up use of ‘&nbsp’
+- Showed errors in favicon image insert line at top of html pages for browser tab and use of – double hyphen in the comments, as this was not in the actual code I did not act on it.
+
+Google Developer Tools – used regularly throughout website development to check layout and responsiveness and test whether features were working. Also useful to play around with changes on screen and checked format right down to iPhone 5 as well as iPad.
+
+Github pages – used to deploy website, images and page links were not working due to file pathways being absolute and not relative. This was highlighted through errors in the console tab. Used Find feature in Cloud9 to help find links to change. Also realised a number of image file names were not industry fit as had some with capital letters and hyphens so changed along with the relevant links.
+
+**User story testing**
+1. A user who wants to join the band or choir will be given basic information on the landing page and then a *Join us* link either in the navigation menu or if they have scrolled down the page in a fairly large image link at bottom of any page. They can also see pictures throughout the site or in the gallery of the band in action and the people involved to get a flavour of the group.
+2. I actually sent the site link to a 70+ year old couple who attend Harmonie concerts and have adapted to the use of websites to find information but don’t use social media. A summary of their feedback was:
+..* thought the site was cheerful and inviting to look at
+..* well laid out and not confusing, easy to navigate and find way back
+..* liked the use of lots of pictures of the actual people
+..* observed that it was easy to find the Facebook link even though they wouldn’t use it!
+..* clear instructions on how to contact the group
+..* everything they thought they would needd was easy to find
+3. The organiser of an event looking to hire the band will have basic information about the group and the director including what she looks like as soon as they arrive on the site. There is a clear *contact us* in the navigation menu and at the bottom as an image link on all pages. They can also see what dates the band are currently busy on the *concerts and events* page and also what type of events they have done in the past.
+4. A parent who wants to find out about their child joining, will see from the photos that other children are also in the band, they will see what the Musical Director looks like and how to make *contact* on the front page. If they would like to attend a concert the dates, venues and times are available. By selecting the *join us* menu item in the navigation or the image link lower down the pages they are given a paragraph of text with key information with the **day and time of rehearsals** in bold so can pick up instantly. Key for parents as if other commitments on that day the decision to join or not can be instant.
+5. A person wishing to join the choir but with potential anxiety will see the *key information* quickly by navigating the 5-page site and through seeing the photographs and clicking on the *social media links* in the footer be able to get an idea quickly of the type of people involved and that it is fun and relaxed. They will also see on the front page a picture of the person who they would be contacting and who leads the choir.
+
+**Personal testing**
+Using Microsoft Edge, Google Chrome and Safari I have looked through each page and clicked on each link to check connections, hovers and transitions. I also posted on Slack peer-review to get feedback.
+
+Through this process I discovered and fixed:
+- links in the text on the join us page to contact page were still absolute and not relative pathways as were the jumbotron links to the Concerts and Events page. 
+- peer-review feedback that hover items were too jumpy and abrupt so added softer transition for hover off and hover on.
 
 ## Deployment
 
