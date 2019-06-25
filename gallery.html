@@ -8,55 +8,50 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Acme|Roboto&display=swap" rel="stylesheet">
-    <script src=" https://kit.fontawesome.com/52af8ccdec.js "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
-    <title>Harmonie Music Group - Gallery</title>
+    <link rel="shortcut icon" type "image/png" href="assets/images/favicon.png">
+    <title>Gallery | Harmonie Music Group</title>
 </head>
 
 <body>
     <!---------line inserted for decoration (not sure if correct way but it worked!)--->
-    <Div>
+    <div>
         <p class="color-row-white">&nbsp</p>
-    </Div>
+    </div>
 
- <!---------navbar code from bootstrap used, logo linked to index page, background color and font styling changed--->
+    <!---------navbar code from bootstrap (background color and font changed, search form deleted as simple easy to navigate website, home page only accesible from logo link)--->
     <nav class="navbar navbar-expand-lg navbar-dark bg-*">
-        <a class="navbar-brand" href="/index.html"><img src="/assets/images/logo-gold.jpg" width="200" height="200" class="img-fluid" alt="logo"></a>
+        <a class="navbar-brand" href="/index.html"><img src="assets/images/logogold.jpg" width="200" height="200" class="img-fluid" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link " href="/index.html">Home <span class="sr-only ">(current)</span></a>
+                    <a class="nav-link" href="concertsevents.html">Concerts and Events <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/concertsevents.html">Concerts and Events <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="join.html">Join us <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/join.html">Join us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/gallery.html">Gallery <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/contact.html">Contact us <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact us <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!---------line inserted for decoration--->
-    <Div>
+    <div>
         <p class="color-row-white">&nbsp</p>
-    </Div>
+    </div>
 
-    <!--------- header image--->
-
-    <header class="title-container ">
+    <!--------- header area image and page titles--->
+    <header class="container-fluid  ">
         <div class="row ">
             <div class="col-12 ">
-                <img src="/assets/images/whole-band-modified.jpg" alt="Band in Concert" style="width:100%;">
+                <img src="assets/images/wholeband.jpg" alt="Band in Concert" style="width:100%;">
                 <div class="text-block">
                     <h1>Gallery</h1>
                 </div>
@@ -65,95 +60,86 @@
     </header>
 
     <!---------line inserted for decoration--->
-    <Div>
+    <div>
         <p class="color-row-gold">&nbsp</p>
-    </Div>
+    </div>
 
-    <!---------main article content--->
-<div class="content-header">
-
-<h2 class="main-sub-heading">A few photos of us making music and having fun!</h2></div>
-    <main class="gallery-container">
-        <div class="row">
-
-
-            <div class="gallery">
-                <img src="/assets/images/trumpeters.jpg" alt="Blues Brothers">
-                <div class="desc">It's the Blues Brothers!</div>
-            </div>
-
-            <div class="gallery">
-                <img src="/assets/images/trombonists.jpg" alt="Our trombonists relaxing">
-                <div class="desc">Trombonists chilling on the hay</div>
-            </div>
-
-            <div class="gallery">
-                <img src="/assets/images/flutes.jpg" alt="Our flute section">
-                <div class="desc">Our flute section after the autumn concert</div>
-            </div>
-
-            <div class="gallery">
-                <img src="/assets/images/happy-saxs.jpg" alt="Two saxophonists">
-                <div class="desc">Two of our sax players enjoying rehearsal</div>
-            </div>
-
-            <div class="gallery">
-                <img src="/assets/images/summer-fete.jpg" alt="Band members in marquee">
-                <div class="desc">Having fun in the sun at the summer fete</div>
-            </div>
-
-            <div class="gallery">
-                <img src="/assets/images/caroling.jpg" alt="Band playing carols">
-                <div class="desc">Christmas caroling in ASDA</div>
-            </div>
-
+    <!---------main article content, basic image gallery code from W3schools.com, sizing of width, padding and margins adapted in css, more images could easily be added--->
+    <main>
+        <div class="content-header">
+            <h2 class="main-sub-heading">A few photos of us making music and having fun!</h2>
         </div>
-
-
+        <div class="gallery-container">
+            <div class="row">
+                <div class="gallery">
+                    <img src="assets/images/trumpeters.jpg" alt="Blues Brothers">
+                    <div class="desc">It's the Blues Brothers!</div>
+                </div>
+                <div class="gallery">
+                    <img src="assets/images/trombonists.jpg" alt="Our trombonists relaxing">
+                    <div class="desc">Trombonists chilling on the hay</div>
+                </div>
+                <div class="gallery">
+                    <img src="assets/images/flutes.jpg" alt="Our flute section">
+                    <div class="desc">Our flute section after the autumn concert</div>
+                </div>
+                <div class="gallery">
+                    <img src="assets/images/happysaxs.jpg" alt="Two saxophonists">
+                    <div class="desc">Two of our sax players enjoying rehearsal</div>
+                </div>
+                <div class="gallery">
+                    <img src="assets/images/summerfete.jpg" alt="Band members in marquee">
+                    <div class="desc">Having fun in the sun at the summer fete</div>
+                </div>
+                <div class="gallery">
+                    <img src="assets/images/caroling.jpg" alt="Band playing carols">
+                    <div class="desc">Christmas caroling in ASDA</div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <!---------code from bootstrap used for jumbotron (background color and text changed, icon added from fontawesome)--->
-
+    <!---------code from bootstrap used for jumbotron, background color and text changed, icon added from fontawesome, background image inserted in css, reduce-text class created text on small screens)--->
     <section>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <div class="text-block-concerts">
-                    <a href="/concerts_and_events.html">
+                    <a href="/concertsevents.html">
                     <i class="ticket-icon fas fa-ticket-alt"></i>
-                    <h1 class="display-4">Concerts and Events</h1>
-                    <h4>Find out more</h4>
+                    <h1 class="display-4 reduce-text" >Concerts and Events</h1>
+                    <h4 class="reduce-text">Find out more</h4>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!---------basic card code copied from bootstrap, fontawesome icons and images added, will stack on smaller screen size css styling of color, text, transform, background colour to section for UX --->
-
+    <!---------original card code copied from bootstrap, fontawesome icons and images added, will stack on smaller screen size css styling of color, text, transform, background colour to section for UX --->
     <section class="container-fluid">
         <div class="row justify-content-center page-link-cards">
             <div class="col-12 col-sm-6 col-md-5 col-lg-3 ">
                 <div class="card">
-                    <a href="/join.html"><img src="/assets/images/join-us.jpg" class="card-img-top card-body" alt="Join us">
+                    <a href="/join.html"><img src="assets/images/joinus.jpg" class="card-img-top card-body" alt="Join us">
                     <i class="fas fa-sign-in-alt"></i><h4>Join us</h4></a>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-5 col-lg-3">
                 <div class="card">
-                    <a href="/contact.html"><img src="/assets/images/contact-us.jpg" class="card-img-top card-body" alt="Contact us">
+                    <a href="/contact.html"><img src="assets/images/contactus.jpg
+                    " class="card-img-top card-body" alt="Contact us">
                     <i class="fas fa-phone-square-alt"></i><h4>Contact us</h4></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!---------footer--->
-    <Div>
+    <!---------footer top lines added for decoration (as in header not sure if correct way)--->
+    <div>
         <p class="color-row-gold">&nbsp</p>
-    </Div>
-    <Div>
+    </div>
+    <div>
         <p class="color-row-white">&nbsp</p>
-    </Div>
+    </div>
     <footer class="container-fluid">
         <div class="row ">
             <div class="col-12 ">
@@ -167,6 +153,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src=" https://kit.fontawesome.com/52af8ccdec.js "></script>
 </body>
 
 </html>
