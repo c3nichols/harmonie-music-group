@@ -50,6 +50,13 @@ The colour often used by the band is a royal blue, although most performances th
 - A scrolling bar under the header image could also be introduced with key headlines, like upcoming concert, amount raised at an event, looking for players etc. this could energise the site if used over time.
 
 ## Technologies Used
+1.	HTML
+2.	CSS
+3.	[Bootstrap v4.3.1] (https://getbootstrap.com/) used for responsive grid system and used templates for navigation bar with toggle, jumbotron and cards for good UX.
+4.	[Google Fonts] (https://fonts.google.com/) used to search and select best main and complementary fonts to use for site design and UX.
+5.	[Font Awesome] (https://fontawesome.com/) used for icons to enhance and decorate.
+6.	[W3Schools] (https://www.w3schools.com/) used to research and view ideas for code to use particularly for forms and photo gallery.
+7.	[Canva colour wheel] (https://www.canva.com/colors/color-wheel/) used chose a colour base for site design.
 
 ## Testing
 
