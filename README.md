@@ -118,13 +118,17 @@ The page can be run locally by being cloned from the projects’ GitHub reposito
 3. Open Git Bash.
 4. Change the current working directory to the location where you want the cloned directory to be made.
 5. Type ```git clone``` and then paste the URL you copied in Step 2 (like example below)
+
 ```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
 6. Press Enter. Your local clone will be created.
 
 ## Credits
 
 ### Content
+Much of the text content was taken with permission from the existing website http://www.harmoniemusicgroup.co.uk/ and social media pages. As a member of the Concert Band I was also able to write any additional information where more was needed. This was all done with the agreement of Danielle Budden the Harmonie Music group musical director.
 
 ### Media
+The photos used in this site were all used with permission from Danielle Budden the Harmonie Music group's musical director.
 
 ### Acknowledgements
+Inspiration for the project came from Danielle and the other members of Harmonie Music Group who are full of fun and a true community band.
