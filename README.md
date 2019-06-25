@@ -100,16 +100,26 @@ Through this process I discovered and fixed:
 
 ## Deployment
 The page was deployed from the GitHub repository to GitHub pages with the following steps:
-- within the repository went to **settings**
-- scrolled down to GitHub pages
-- selected source (Master Branch)
-- saved
-- sonfirmed repository name
-- scrolled back down to GitHub pages section
-- selected link provided next to “Your site is ready to be published at”
-- cut and paste in to new browser tab
+- Within the repository went to **settings**
+- Scrolled down to GitHub pages
+- Selected source (Master Branch)
+- Saved
+- Confirmed repository name
+- Scrolled back down to GitHub pages section
+- Selected link provided next to “Your site is ready to be published at”
+- Cut and paste in to new browser tab
 
 The only difference in appearance to the developer mode was the omission of all images and 404 errors for internal page links. I was in communication with my mentor who pointed out it was likely to be that the links were absolute and not relative so I researched the solution and corrected the issues. There were no other differences.
+
+#### How to run the code locally
+The page can be run locally by being cloned from the projects’ GitHub repository page by following the steps below which can also be found at https://help.github.com/en/articles/cloning-a-repository 
+1. Under the repository name, click Clone or download. 
+2. In the Clone with HTTPs section, click to copy the clone URL for the repository. 
+3. Open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type ```git clone``` and then paste the URL you copied in Step 2 (like example below)
+```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
+6. Press Enter. Your local clone will be created.
 
 ## Credits
 
