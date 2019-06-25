@@ -12,7 +12,7 @@ h6 {
 p {
     font-family: "roboto", sans-serif;
 }
- 
+
 /*---------------------------------------navbar, line insert decoration (header and footer areas)*/
 
 .navbar {
@@ -99,6 +99,10 @@ p {
     padding: 10px;
     border-color: #B89D4D;
     border-width: 5px;
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+    -o-transition: ease-in-out .5s;
+    -moz-transition: ease-in-out .5s;
 }
 
 .concert-card {
@@ -109,6 +113,7 @@ p {
     padding: 10px;
     border-color: #B89D4D;
     border-width: 5px;
+
 }
 
 .page-link-cards {
@@ -142,6 +147,10 @@ p {
 
 .card:hover {
     border: 3px solid #B89D4D;
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+    -o-transition: ease-in-out .5s;
+    -moz-transition: ease-in-out .5s;
 }
 
 /*---------------------------------------footer*/
@@ -279,15 +288,19 @@ btn:hover {
     opacity: 0.9;
     text-decoration: none;
     color: #9f9063;
-    transition: ease-in-out;
-    -webkit-transition: ease-in-out;
-    -o-transition: ease-in-out;
-    -moz-transition: ease-in-out;
+    transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 1s;
+    -o-transition: ease-in-out 1s;
+    -moz-transition: ease-in-out 1s;
 }
 
 a {
     text-decoration: none;
     color: #B89D4D;
+    transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 1s;
+    -o-transition: ease-in-out 1s;
+    -moz-transition: ease-in-out 1s;
 }
 
 a:hover {
@@ -298,4 +311,8 @@ a:hover {
     -moz-transform: scale(0.9);
     -o-transform: scale(0.9);
     transform: scale(0.9);
+    transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 1s;
+    -o-transition: ease-in-out 1s;
+    -moz-transition: ease-in-out 1s;
 }
