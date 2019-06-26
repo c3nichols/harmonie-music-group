@@ -8,6 +8,8 @@ Harmonie Music group use Facebook very effectively to promote themselves and sho
 
 There is a current website which is very dated and not been kept up to date since 2014.
 
+**Here is the link to my deployed website** https://c3nichols.github.io/harmonie-music-group/
+
 ## UX (user experience)
 The main objective of this project is to ensure people looking for Harmonie Music Group online can easily find information resulting in:
 - Increased attendance at concerts and events
@@ -79,6 +81,9 @@ Google Developer Tools – used regularly throughout website development to chec
 
 Github pages – used to deploy website, images and page links were not working due to file pathways being absolute and not relative. This was highlighted through errors in the console tab. Used Find feature in Cloud9 to help find links to change. Also realised a number of image file names were not industry fit as had some with capital letters and hyphens so changed along with the relevant links.
 
+Quirktools (http://quirktools.com/screenfly/) used to check for varying screen sizes up to 3840px
+- all checks OK
+
 **User story testing**
 1. A user who wants to join the band or choir will be given basic information on the landing page and then a *Join us* link either in the navigation menu or if they have scrolled down the page in a fairly large image link at bottom of any page. They can also see pictures throughout the site or in the gallery of the band in action and the people involved to get a flavour of the group.
 2. I actually sent the site link to a 70+ year old couple who attend Harmonie concerts and have adapted to the use of websites to find information but don’t use social media. A summary of their feedback was:
@@ -92,7 +97,7 @@ Github pages – used to deploy website, images and page links were not working 
 4. A parent who wants to find out about their child joining, will see from the photos that other children are also in the band, they will see what the Musical Director looks like and how to make *contact* on the front page. If they would like to attend a concert the dates, venues and times are available. By selecting the *join us* menu item in the navigation or the image link lower down the pages they are given a paragraph of text with key information with the **day and time of rehearsals** in bold so can pick up instantly. Key for parents as if other commitments on that day the decision to join or not can be instant.
 5. A person wishing to join the choir but with potential anxiety will see the *key information* quickly by navigating the 5-page site and through seeing the photographs and clicking on the *social media links* in the footer be able to get an idea quickly of the type of people involved and that it is fun and relaxed. They will also see on the front page a picture of the person who they would be contacting and who leads the choir.
 
-**Personal testing**
+**Manual testing**
 
 Using Microsoft Edge, Google Chrome and Safari I have looked through each page and clicked on each link to check connections, hovers and transitions. I also filled in the contact us form with varying details to check for errors and feedback messages when inputs not correct. I also posted on Slack peer-review to get feedback.
 
