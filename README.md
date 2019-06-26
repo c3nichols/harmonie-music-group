@@ -8,7 +8,7 @@ Harmonie Music group use Facebook very effectively to promote themselves and sho
 
 There is a current website which is very dated and not been kept up to date since 2014.
 
-**Here is the link to my deployed website** https://c3nichols.github.io/harmonie-music-group/
+My deployed website https://c3nichols.github.io/harmonie-music-group/
 
 ## UX (user experience)
 The main objective of this project is to ensure people looking for Harmonie Music Group online can easily find information resulting in:
@@ -77,12 +77,12 @@ W3C Markup Validation Service (https://validator.w3.org) used to check HTML
 - Picked up use of ‘&nbsp’
 - Showed errors in favicon image insert line at top of html pages for browser tab and use of – double hyphen in the comments, as this was not in the actual code I did not act on it.
 
+Quirktools (http://quirktools.com/screenfly/) used to check for varying screen sizes up to 3840px
+- all checks OK
+
 Google Developer Tools – used regularly throughout website development to check layout and responsiveness and test whether features were working. Also useful to play around with changes on screen and checked format right down to iPhone 5 as well as iPad.
 
 Github pages – used to deploy website, images and page links were not working due to file pathways being absolute and not relative. This was highlighted through errors in the console tab. Used Find feature in Cloud9 to help find links to change. Also realised a number of image file names were not industry fit as had some with capital letters and hyphens so changed along with the relevant links.
-
-Quirktools (http://quirktools.com/screenfly/) used to check for varying screen sizes up to 3840px
-- all checks OK
 
 **User story testing**
 1. A user who wants to join the band or choir will be given basic information on the landing page and then a *Join us* link either in the navigation menu or if they have scrolled down the page in a fairly large image link at bottom of any page. They can also see pictures throughout the site or in the gallery of the band in action and the people involved to get a flavour of the group.
